@@ -118,7 +118,6 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # --- 3. HEADER & LOGO ---
-# Menggunakan HTML murni untuk memastikan bypass batasan layout Streamlit
 st.markdown('''
     <div class="nav-bar">
         <img src="https://i.ibb.co.com/gLtn0GCT/logo.png" class="logo-img" alt="BRB Logo">
@@ -171,7 +170,8 @@ st.markdown(f"""
         <h1 class="hero-title">Pintar Menilai Properti</h1>
         <p class="hero-subtitle">
             Uji kelayakan harga hunian Anda dengan <b>Logika Fuzzy Mamdani</b> secara objektif.<br> 
-            Analisis divalidasi menggunakan dataset pasar Bandung tahun 2024 yang dihimpun secara mendalam melalui portal <i>rumah123.com</i>.
+            Analisis divalidasi menggunakan dataset pasar Bandung tahun 2024,<br>
+            yang dihimpun secara mendalam melalui portal <i>rumah123.com</i>.
         </p>
         <div style="margin-top: 20px;">
             <a href="#input-area" class="cta-button">
@@ -248,4 +248,5 @@ st.markdown(f"""
             <a href="https://irfannurf.my.id" target="_blank">Portfolio</a>
         </p>
     </div>
+
 """, unsafe_allow_html=True)
