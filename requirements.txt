@@ -1,2 +1,6 @@
 numpy
 scikit-fuzzy
+numpy
+scipy
+scikit-fuzzy
+setuptools
