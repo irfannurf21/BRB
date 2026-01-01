@@ -1,6 +1,5 @@
 numpy
-scikit-fuzzy
-numpy
 scipy
+networkx
 scikit-fuzzy
 setuptools
